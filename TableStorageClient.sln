@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33711.374
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageClient.API", "TableStorageClient.API\TableStorageClient.API.csproj", "{BFC19BEC-A8D4-4056-9F74-B783BA2664E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageClient.Infrastructure", "TableStorageClient.Infrastructure\TableStorageClient.Infrastructure.csproj", "{5F962ECD-2D21-4C00-AD41-91814365BD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageClient.Console", "TableStorageClient.COnsole\TableStorageClient.Console.csproj", "{F464B456-27E6-4BEB-871A-39FC7820B21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC19BEC-A8D4-4056-9F74-B783BA2664E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC19BEC-A8D4-4056-9F74-B783BA2664E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC19BEC-A8D4-4056-9F74-B783BA2664E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC19BEC-A8D4-4056-9F74-B783BA2664E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F962ECD-2D21-4C00-AD41-91814365BD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F962ECD-2D21-4C00-AD41-91814365BD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F962ECD-2D21-4C00-AD41-91814365BD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F962ECD-2D21-4C00-AD41-91814365BD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F464B456-27E6-4BEB-871A-39FC7820B21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F464B456-27E6-4BEB-871A-39FC7820B21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F464B456-27E6-4BEB-871A-39FC7820B21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F464B456-27E6-4BEB-871A-39FC7820B21C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFCDB02B-616A-486B-831A-C2A8A591E5B1}
+	EndGlobalSection
+EndGlobal
